@@ -2,22 +2,25 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .row {
     flex: 1;
     display: flex;
+    gap: 8px;
+    margin: 8px;
 }
 
 .column {
     flex: 1;
     border: 2px solid black;
+    width: 60px;
+    height: 60px;
+}
+
+.hover {
+    background-color: black;
 }
