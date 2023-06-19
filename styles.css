@@ -10,6 +10,7 @@ button {
     border-radius: 4px;
     margin-bottom: 12px;
     height: 52px;
+    width: 600px;
     color: greenyellow;
     font-weight: bold;
 }
