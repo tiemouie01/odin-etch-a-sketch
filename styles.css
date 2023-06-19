@@ -3,11 +3,11 @@ html {
 }
 
 .container {
+    background-color: black;
     display: flex;
     flex-direction: column;
     height: 720px;
     width: 720px;
-    border: 2px solid black;
 }
 
 .row {
@@ -25,5 +25,5 @@ html {
 }
 
 .hover {
-    background-color: black;
+    background-color: white;
 }
